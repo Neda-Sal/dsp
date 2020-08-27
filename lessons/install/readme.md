@@ -55,4 +55,4 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 3.8.5
+>> Python 3.8.3
