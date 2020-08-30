@@ -70,6 +70,8 @@ directory.
 
 > Question: How could we make sure that we moved?
 
+> ls
+
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
 down. Sometimes we want to move back up a folder. To do that we can do:
@@ -120,6 +122,8 @@ why.
 
 > Hint: we learned how to list all the files up above.
 
+> We saved the text "HELLO WORLD" to a file called test_file.txt
+
 The greater than says, "put that output into the following file instead."
 
 What if we want to read that file back out to the terminal?
@@ -145,6 +149,10 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+
+```bash 
+curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
+```
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -192,6 +200,8 @@ ls -lh
 ```
 
 > What changed?
+
+> The format of the file size
 
 If instead copying we just want to change the name of a file, we can do:
 
